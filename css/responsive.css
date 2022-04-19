@@ -1,0 +1,170 @@
+@media only screen and (min-width: 577px) {
+	nav{
+		padding: 0px 200px!important;
+	}
+	.navbar-brand{
+	width: 15%;
+}
+.nav-link{
+	padding-right: 1.5rem!important;
+	padding-left: 1.5rem!important;
+}
+.landing_cover{
+	background-image: url('https://www.myhealthbuddy.co/images/home/main-group-bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 83vh;
+	margin-top: 50px;
+}
+.facebook_connect_section{
+	background-image: url('https://www.myhealthbuddy.co/images/home/join-community-bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 53vh;
+}
+.section_heading{
+	font-size: 38px;
+	font-weight: 500;
+	color: #000;
+}
+.section_heading2{
+	font-size: 22px;
+	font-weight: 400;
+	color: #56368f;
+}
+.how_it_works_section{
+	padding: 0px 300px;
+	justify-content: space-evenly;
+}
+.how_it_works_container img{
+	width: 40%;
+	margin-top: -30px;
+}
+.success_stories_section .flickity-viewport{
+	height: 440px!important;
+}
+.coaches_section .carousel-cell{
+	width: 20%;
+	padding: 20px;
+}
+.coaches_section .flickity-viewport{
+	height: 250px!important;
+}
+}
+
+@media only screen and (min-width: 1400px) {}
+
+@media only screen and (max-width: 576px) {
+	/* Global classes for mobile */
+	.mfo-35 {
+		font-size: 35px!important;
+	}
+	.mfo-32 {
+		font-size: 32px!important;
+	}
+	.mfo-30 {
+		font-size: 30px!important;
+	}
+	.mfo-28 {
+		font-size: 28px!important;
+	}
+	.mfo-25 {
+		font-size: 25px!important;
+	}
+	.mfo-24 {
+		font-size: 24px!important;
+	}
+	.mfo-22 {
+		font-size: 22px!important;
+	}
+	.mfo-20 {
+		font-size: 20px!important;
+	}
+	.mfo-18 {
+		font-size: 18px!important;
+	}
+	.mfo-17 {
+		font-size: 17px!important;
+	}
+	.mfo-16 {
+		font-size: 16px!important;
+	}
+	.mfo-15 {
+		font-size: 15px!important;
+	}
+	.mfo-14 {
+		font-size: 14px!important;
+	}
+	.mfo-13 {
+		font-size: 13px!important;
+	}
+	.mfo-12 {
+		font-size: 12px!important;
+	}
+	.mfo-11 {
+		font-size: 11px!important;
+	}
+	.mfo-10 {
+		font-size: 10px!important;
+	}
+	.mow-100 {
+		width: 100%!important;
+	}
+	.mow-90{
+		width: 90%!important;
+	}
+	.mow-65 {
+		width: 65%!important;
+	}
+	.mvh-100 {
+		height: 85vh!important;
+	}
+	.mvh-110 {
+		height: 110vh!important;
+	}
+	/* Custom classes */
+	.navbar-brand{
+	width: 40%;
+}
+.landing_cover{
+	background-image: url('https://www.myhealthbuddy.co/images/home/main-group-bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 45vh;
+	margin-top: 96px;
+}
+.section_heading{
+	font-size: 28px;
+	font-weight: 500;
+	color: #000;
+}
+.section_heading2{
+	font-size: 18px;
+	font-weight: 400;
+	color: #56368f;
+}
+.how_it_works_container img{
+	width: 90%;
+	margin-top: -30px;
+}
+.facebook_connect_section{
+	background-image: url('https://www.myhealthbuddy.co/images/home/join-community-bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 30vh;
+}
+.success_stories_section .flickity-viewport{
+	height: 870px!important;
+}
+.coaches_section .carousel-cell{
+	width: 100%;
+	padding: 0px 60px;
+}
+.coaches_section .flickity-viewport{
+	height: 350px!important;
+}
+}

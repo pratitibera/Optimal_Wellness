@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+html, body{
+	font-family: 'Poppins', sans-serif;
+}
+/* Global classes */
+
+.btn:focus,
+.btn:active {
+	outline: none !important;
+	box-shadow: none;
+}
+
+input:focus {
+	border-top: none;
+	outline: none;
+}
+
+select:focus {
+	border: none;
+	outline: none;
+}
+
+input::placeholder {
+	font-size: 13px;
+	color: #fff;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.w-100 {
+	width: 100%!important;
+}
+
+.w-95 {
+	width: 95%;
+}
+
+.w-80 {
+	width: 80%;
+}
+
+.w-60 {
+	width: 60%;
+}
+
+.w-40 {
+	width: 40%;
+}
+
+.h-100 {
+	height: 100%;
+}
+
+.fo-12 {
+	font-size: 12px;
+}
+
+.fo-13 {
+	font-size: 13px;
+}
+
+.fo-14 {
+	font-size: 14px;
+}
+
+.fo-15 {
+	font-size: 15px;
+}
+
+.fo-16 {
+	font-size: 16px;
+}
+
+.fo-17 {
+	font-size: 17px;
+}
+
+.fo-18 {
+	font-size: 18px!important;
+}
+
+.fo-20 {
+	font-size: 20px;
+}
+
+.fo-22 {
+	font-size: 22px;
+}
+
+.fo-24 {
+	font-size: 24px;
+}
+
+.fo-26 {
+	font-size: 26px;
+}
+
+.fo-28 {
+	font-size: 28px;
+}
+
+.fo-30 {
+	font-size: 30px!important;
+}
+
+.fo-32 {
+	font-size: 32px;
+}
+
+.fo-34 {
+	font-size: 34px;
+}
+
+.fo-36 {
+	font-size: 36px;
+}
+
+.fo-38 {
+	font-size: 38px;
+}
+
+.fo-40 {
+	font-size: 40px;
+}
+
+.fo-48 {
+	font-size: 48px;
+}
+
+.fw-400 {
+	font-weight: 400;
+}
+
+.fw-500 {
+	font-weight: 500;
+}
+
+.fw-600 {
+	font-weight: 600;
+}
+
+.fw-700 {
+	font-weight: 700;
+}
+
+.fw-800 {
+	font-weight: 800;
+}
+
+.carousel-inner img {
+	width: 100%;
+	height: 100%;
+}
+
+.cursorPointer {
+	cursor: pointer;
+}
+
+/* 3-bars and cross icon animation */
+
+.menu-btn__burger {
+	width: 25px;
+	height: 3px;
+	background: #56368f;
+	border-radius: 5px;
+	transition: all .5s ease-in-out;
+}
+
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+	content: '';
+	position: absolute;
+	width: 25px;
+	height: 3px;
+	background: #56368f;
+	border-radius: 5px;
+	transition: all .5s ease-in-out;
+}
+
+.menu-btn__burger::before {
+	transform: translateY(-9px);
+}
+
+.menu-btn__burger::after {
+	transform: translateY(9px);
+}
+
+
+/* ANIMATION */
+
+.menu-btn.open .menu-btn__burger {
+	transform: translateX(-50px);
+	background: transparent;
+	box-shadow: none;
+}
+
+.menu-btn.open .menu-btn__burger::before {
+	transform: rotate(45deg) translate(35px, -35px);
+}
+
+.menu-btn.open .menu-btn__burger::after {
+	transform: rotate(-45deg) translate(35px, 35px);
+}
+.bg-grey{
+	background-color: #F8F8F8;
+}
+
+nav{
+	border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: #fff;
+}
+nav li a{
+	color: #000!important;
+	font-weight: 500;
+}
+.landing_cover .btn, .success_stories_section .btn, .facebook_connect_section .btn{
+	border-radius: 10px;
+	padding: 10px 20px;
+    background-color: #5da60a;
+    color: #f1f1f1;
+    transition: .2s;
+}
+.methodology_card{
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	padding: 20px;
+}
+.methodology_card.one{
+	border: 3px solid #7e4c7f;
+}
+.methodology_card.two{
+	border: 3px solid #58b8ad;
+}
+.methodology_card.three{
+	border: 3px solid #dadf23;
+}
+.methodology_card.four{
+	border: 3px solid #e01171;
+}
+.methodology_card.five{
+	border: 3px solid #fea022;
+}
+.methodology_card.six{
+	border: 3px solid #58b8ad;
+}
+
+.how_it_works_button{
+	border: 1px solid #dee2e6;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 1.2rem 1rem;
+    color: #777;
+    cursor: pointer;
+}
+.how_it_works_button.active{
+	background-color: #5da60a;
+    color: #ffffff;
+}
+.success_stories_section, footer{
+	background-image: linear-gradient(75deg, #4F1BC5 0%, #7B17C5 100%);
+}
+
+footer i {
+	color: #fff;
+}
+
+footer input {
+	background: transparent;
+	border: 1px solid #fff;
+	border-radius: 0;
+	width: 83%!important;
+	padding: 7px 14px;
+	color: #fff;
+	font-size: 13px;
+}
+footer a i{
+	font-size: 22px;
+}
+a{
+	text-decoration: none!important;
+}
+.email_btn {
+	width: 17%;
+	padding: 7px 14px;
+}
+.email_btn i{
+	color: #56368f;
+}
+.flickity-page-dots .dot{
+	background: #fff!important;
+}
