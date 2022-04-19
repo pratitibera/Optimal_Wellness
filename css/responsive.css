@@ -1,4 +1,4 @@
-@media only screen and (min-width: 577px) {
+@media only screen and (min-width: 992px) {
 	nav{
 		padding: 0px 200px!important;
 	}
@@ -9,13 +9,15 @@
 	padding-right: 1.5rem!important;
 	padding-left: 1.5rem!important;
 }
+.mt-50{
+	margin-top: 50px;
+}
 .landing_cover{
 	background-image: url('https://www.myhealthbuddy.co/images/home/main-group-bg.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 83vh;
-	margin-top: 50px;
 }
 .facebook_connect_section{
 	background-image: url('https://www.myhealthbuddy.co/images/home/join-community-bg.jpg');
@@ -54,9 +56,7 @@
 }
 }
 
-@media only screen and (min-width: 1400px) {}
-
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 991px) {
 	/* Global classes for mobile */
 	.mfo-35 {
 		font-size: 35px!important;
@@ -126,7 +126,13 @@
 	}
 	/* Custom classes */
 	.navbar-brand{
-	width: 40%;
+	width: 25%;
+}
+.mt-50{
+	margin-top: 103px;
+}
+nav {
+    padding: 0px 70px!important;
 }
 .landing_cover{
 	background-image: url('https://www.myhealthbuddy.co/images/home/main-group-bg.jpg');
@@ -134,7 +140,6 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 45vh;
-	margin-top: 96px;
 }
 .section_heading{
 	font-size: 28px;
@@ -158,13 +163,43 @@
 	height: 30vh;
 }
 .success_stories_section .flickity-viewport{
-	height: 870px!important;
+	height: 500px!important;
+}
+.coaches_section .carousel-cell{
+	width: 25%;
+	padding: 25px;
+}
+.coaches_section .flickity-viewport{
+	height: 240px!important;
+}
+.methodology_card{
+	width: 90px;
+	height: 90px;
+}
+}
+
+@media only screen and (max-width: 576px) {
+	.navbar-brand{
+	width: 40%;
+}
+nav {
+    padding: 0px 0px!important;
+}
+.mt-50{
+	margin-top: 96px;
+}
+.methodology_card{
+	width: 130px;
+	height: 130px;
 }
 .coaches_section .carousel-cell{
 	width: 100%;
 	padding: 0px 60px;
 }
-.coaches_section .flickity-viewport{
-	height: 350px!important;
+.success_stories_section .flickity-viewport {
+    height: 870px!important;
+}
+.coaches_section .flickity-viewport {
+    height: 350px!important;
 }
 }

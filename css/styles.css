@@ -158,7 +158,9 @@ ul {
 .cursorPointer {
 	cursor: pointer;
 }
-
+.navbar-toggler-icon{
+	margin-top: 25px;
+}
 /* 3-bars and cross icon animation */
 
 .menu-btn__burger {
@@ -293,4 +295,8 @@ a{
 }
 .flickity-page-dots .dot{
 	background: #fff!important;
+}
+.transformations_filter{
+	font-size: 14px;
+	padding: 5px 10px;
 }
